@@ -1,9 +1,0 @@
- GIT Assignment 
- commands overview
- 
- -ls command in git -List contents of working directory
- -Pull command in git-download and fetch content from remote repository.
- -push command in git- upload content to a remote repository
- -ls -al-list out all
- -commit captures projects current chnages
- add .-adds a change in the working directory to the staging area.
