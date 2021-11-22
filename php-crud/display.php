@@ -143,7 +143,7 @@ if($result)
       <td>
       <button class="btn btn-primary"><a href="update.php? updateid='.$id.'" class="text-light">Update</a></button>
 
-      <button class="btn btn-danger"><a href="delete.php? deleteid='.$id.'"class="text-light">Delete</a></button>
+      <button class="btn btn-danger"><a href="delete.php? deleteid='.$id.'" oncliclk="return checkDelete()class="text-light">Delete</a></button>
   </td>
   </tr>';
     }
@@ -152,5 +152,12 @@ if($result)
 </tbody>
 </table>
 </div>
+ </script>
+<script>
+checkDelete = ()=>
+{
+    return confirm("are you sure to delete this record?");
+}
+</script>
 </body>
 </html>
