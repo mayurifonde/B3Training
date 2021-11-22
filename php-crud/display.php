@@ -70,14 +70,14 @@ if(isset($_POST['submit']))
 
 <div class="container my-2">
     <form method="post">
-        <button class="btn btn-dark btn-sm" name="submit">Sort</button>
+        <button class="btn btn-dark btn-sm" name="sort">Sort</button>
 
 </form>
 <div class="container my-2">
     <table class="table">
         <?php 
 
-if(isset($_POST['submit']))
+if(isset($_POST['sort']))
 {
 
 $sql="select id,product_name,product_price from `crud` order by product_name";
