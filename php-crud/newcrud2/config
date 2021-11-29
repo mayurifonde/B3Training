@@ -1,0 +1,11 @@
+<?php
+
+	define("DB_HOST", "localhost");
+	define("DB_USER", "root");
+	define("DB_PASSWORD", "");
+	define("DB_NAME", "crudoop");
+
+	define("ROOT_PATH", "/crud2/");
+	define("ROOT_URL", "http://localhost/crud2/");
+
+?>
